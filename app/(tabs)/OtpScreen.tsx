@@ -17,14 +17,16 @@ export default function OtpScreen(){
             <SafeAreaView>
                 <View style={style.titleContainer}>
                     <Text style={style.title}>
-                        OTP
+                        OTP Verification
                     </Text>
                 </View>
                 <View style={style.logoContainer}>
-                    <ImageBackground>
-                        source={require('../../assets/images/OTPLogo.png')}
-                        style={style.logo}
+                    <ImageBackground
+                    source={require('../../assets/images/OTPLogo.png')}
+                        style={style.logo}>
                     </ImageBackground>
+                </View>
+                <View style={style.codeRow}>
                 </View>
             </SafeAreaView>
         </ScrollView>
