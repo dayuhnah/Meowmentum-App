@@ -4,6 +4,7 @@ import { useNavigation } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 import { OtpStyle as style } from '../styles/OtpStyle';
 
+
 export default function OtpScreen(){
     const [fontsLoaded] = useFonts({
             'Handjet-Regular': require('../../assets/fonts/Handjet-Regular.ttf'),
@@ -11,7 +12,6 @@ export default function OtpScreen(){
             'Handjet-Medium': require('../../assets/fonts/Handjet-Medium.ttf'),
     
     });
-
     return(
         <ScrollView style={style.screen}>
             <SafeAreaView>
@@ -20,6 +20,9 @@ export default function OtpScreen(){
                         OTP Verification
                     </Text>
                 </View>
+                <Text style={style.subtitle}>
+                    Enter the OTP sent to your email address
+                </Text>
                 <View style={style.logoContainer}>
                     <ImageBackground
                     source={require('../../assets/images/OTPLogo.png')}
@@ -27,6 +30,15 @@ export default function OtpScreen(){
                     </ImageBackground>
                 </View>
                 <View style={style.codeRow}>
+                    <TextInput
+                        style={style.input}
+                        placeholder="Enter OTP"
+                        keyboardType="numeric"
+                        maxLength={4}
+                    />
+                </View>
+                <View>
+                    
                 </View>
             </SafeAreaView>
         </ScrollView>

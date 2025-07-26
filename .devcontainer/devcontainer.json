@@ -1,0 +1,15 @@
+{
+  "name": "Habit Tracker Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "msjsdiag.vscode-react-native"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install",
+  "forwardPorts": [8081, 19000, 19001, 19002]
+}

@@ -30,5 +30,23 @@ export const OtpStyle = StyleSheet.create({
     codeRow:{
         flexDirection: 'row',
         
+    },
+    subtitle: {
+        fontFamily: 'Handjet-Medium',
+        fontSize: 25,
+        color: 'white',
+        textAlign: 'center',
+        marginTop: 30
+    },
+    input:{
+        width: '80%',
+        height: 50,
+        backgroundColor: 'white',
+        borderRadius: 10,
+        paddingHorizontal: 20,
+        fontSize: 18,
+        marginTop: 20,
+        alignSelf: 'center',
+        textAlign: 'center'
     }
 });
