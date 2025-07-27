@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+# Meowmentum App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Meowmentum** is a React Native (Expo) application designed to help users track their habits and stay consistent with their goals. This project is configured with a Dev Container to ensure consistent development environments across machines.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features of Meowmentum App
 
-   ```bash
-   npm install
-   ```
+- Easy-to-use habit tracking interface
+- Track habits whether it's timed habits or a continuous habit
+- Point system based on how well you are tracking your habits
+- AI chat bot for you to find any other habits you want to track
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📦 Tech Stack
 
-In the output, you'll find options to open the app in a
+- React Native
+- Expo
+- JavaScript (ES6+)
+- ESLint + Prettier
+- Dev Containers (Docker + VS Code)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## ✅ Prerequisites
 
-## Get a fresh project
+Make sure the following tools are installed:
 
-When you're ready, run:
+1. [Docker Desktop](https://www.docker.com/products/docker-desktop)
+2. [Visual Studio Code](https://code.visualstudio.com/)
+3. [Dev Containers extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+---
+
+## 🛠️ Getting Started
+
+### Option 1: Using Dev Containers (Recommended)
+
+1. **Clone the repository:**
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/yourusername/Meowmentum-App.git
+cd Meowmentum-App
